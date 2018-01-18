@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">友筑</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="schools">
+        <item>中山大学</item>
+        <item>汕头大学</item>
+        <item>华南理工大学</item>
+        <item>华南农业大学</item>
+        <item>广东海洋大学</item>
+        <item>广州医科大学</item>
+        <item>其他</item>
+    </string-array>
+</resources>

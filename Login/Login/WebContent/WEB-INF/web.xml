@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+	<context-param>
+	    <param-name>webAppRootKey</param-name>
+	    <param-value>project1.root</param-value>
+	</context-param> 
+    <servlet>
+      <servlet-name>DoLogin</servlet-name>
+  	  <servlet-class>org.DoLogin</servlet-class>
+  	  <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>DoLogin</servlet-name>
+      <url-pattern>/message</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>Dochange</servlet-name>
+  	  <servlet-class>org.Dochange</servlet-class>
+  	  <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>Dochange</servlet-name>
+      <url-pattern>/change</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+      <servlet-name>Moments</servlet-name>
+  	  <servlet-class>org.Moments</servlet-class>
+  	  <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>Moments</servlet-name>
+      <url-pattern>/publish</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+      <servlet-name>Docomment</servlet-name>
+  	  <servlet-class>org.Docomment</servlet-class>
+  	  <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>Docomment</servlet-name>
+      <url-pattern>/comment</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+      <servlet-name>Doupvote</servlet-name>
+  	  <servlet-class>org.Doupvote</servlet-class>
+  	  <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>Doupvote</servlet-name>
+      <url-pattern>/upvote</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+      <servlet-name>Checkinfo</servlet-name>
+  	  <servlet-class>org.Checkinfo</servlet-class>
+  	  <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>Checkinfo</servlet-name>
+      <url-pattern>/info</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+      <servlet-name>PersonMoment</servlet-name>
+  	  <servlet-class>org.PersonMoment</servlet-class>
+  	  <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>PersonMoment</servlet-name>
+      <url-pattern>/getperson</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>SchoolMoment</servlet-name>
+  	  <servlet-class>org.SchoolMoment</servlet-class>
+  	  <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>SchoolMoment</servlet-name>
+      <url-pattern>/getschool</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+      <servlet-name>Nearby</servlet-name>
+  	  <servlet-class>org.Nearby</servlet-class>
+  	  <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>Nearby</servlet-name>
+      <url-pattern>/near</url-pattern>
+  </servlet-mapping>    
+  
+  <display-name>app</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

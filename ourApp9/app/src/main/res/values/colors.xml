@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#379aec</color>
+    <color name="colorPrimaryDark">#3799eb</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_cd3e3a">#cd3e3a</color>
+    <color name="colorLogin">#379aec</color>
+    <color name="white">#ffffff</color>
+    <color name="colorTransparent">#00eeeeee</color>
+    <color name="colorGrey">#f4f4f4</color>
+    <color name="colorNotSoBlack">#454545</color>
+    <color name="greyCard">#fcfcfc</color>
+    <color name="defaultTextColor">#5c5c5c</color>
+</resources>
